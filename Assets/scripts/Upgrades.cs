@@ -1,18 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 public class Upgrades : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Image UpgradeButton;
+    public TMP_Text LevelText;
+    public TMP_Text NameText;
+    public TMP_Text CostText;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
